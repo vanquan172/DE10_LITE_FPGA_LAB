@@ -1,0 +1,10 @@
+module mux2_1 
+
+( 
+	input sel,a,b,
+	output out
+) 
+
+assign out = (~s & a) | (s & b);
+
+endmodule 

@@ -1,0 +1,7 @@
+module mux2_1_4bit (
+    input wire [3:0] A, B,  // Hai đầu vào 4-bit
+    input wire S,           // Tín hiệu chọn
+    output wire [3:0] Y     // Đầu ra 4-bit
+);
+    assign Y = (S) ? B : A;
+endmodule

@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Apps/Quartus/User/led7seg_4/simulation/modelsim
+vdecoder_7seg
+Z1 !s110 1740387716
+!i10b 1
+!s100 YnV51nZ1kXBkl1?zL7FM?1
+I8MQ5GjcK1jGo;LVEzVFj<0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1740387689
+Z4 8D:/Apps/Quartus/User/Source_verilog/led7seg_4.v
+Z5 FD:/Apps/Quartus/User/Source_verilog/led7seg_4.v
+L0 25
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1740387716.000000
+Z8 !s107 D:/Apps/Quartus/User/Source_verilog/led7seg_4.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/led7seg_4.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/Source_verilog
+Z12 tCvgOpt 0
+vled7seg_2
+R1
+!i10b 1
+!s100 _D?VC7W?n5K@LjZ<Qe@@]0
+IH1l2enV_ab=Kf`DOL^A3o1
+R2
+R0
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vled7seg_4
+R1
+!i10b 1
+!s100 ohX:NeWX5X8Z?Amm>H0ZQ3
+IBOk@n>;fTGk8Z8[AWLY4^2
+R2
+R0
+R3
+R4
+R5
+L0 85
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vled7seg_4_tb
+R1
+!i10b 1
+!s100 ?Z;R:UN64:G1hM]8oF1I?2
+I_XN:Jo?k5Gf2XcX6Y7C630
+R2
+R0
+w1740384188
+8D:/Apps/Quartus/User/led7seg_4/../Source_verilog/led7seg_4_tb.v
+FD:/Apps/Quartus/User/led7seg_4/../Source_verilog/led7seg_4_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Apps/Quartus/User/led7seg_4/../Source_verilog/led7seg_4_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/led7seg_4/../Source_verilog|D:/Apps/Quartus/User/led7seg_4/../Source_verilog/led7seg_4_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/led7seg_4/../Source_verilog
+R12
+vmux4_1
+R1
+!i10b 1
+!s100 157Lk3IdQK2h;>lj^=^842
+I<o2[GVkZ@[j=fCj7b9^cL3
+R2
+R0
+R3
+R4
+R5
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

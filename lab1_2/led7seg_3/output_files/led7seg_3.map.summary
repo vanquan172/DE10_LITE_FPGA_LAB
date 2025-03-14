@@ -1,0 +1,16 @@
+Analysis & Synthesis Status : Successful - Mon Feb 24 00:40:12 2025
+Quartus Prime Version : 17.1.0 Build 590 10/25/2017 SJ Lite Edition
+Revision Name : led7seg_3
+Top-level Entity Name : led7seg_3
+Family : MAX 10
+Total logic elements : 28
+    Total combinational functions : 28
+    Dedicated logic registers : 0
+Total registers : 0
+Total pins : 42
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
+UFM blocks : 0
+ADC blocks : 0

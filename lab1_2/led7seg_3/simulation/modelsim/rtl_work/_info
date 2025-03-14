@@ -1,0 +1,120 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Apps/Quartus/User/led7seg_3/simulation/modelsim
+vdecoder_7seg
+Z1 !s110 1740333489
+!i10b 1
+!s100 aKFH[zK<^2eEm7`ii]Da11
+Ik3O?1a<B?M2G[zANDC7lS3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1740332392
+Z4 8D:/Apps/Quartus/User/Source_verilog/led7seg_2.v
+Z5 FD:/Apps/Quartus/User/Source_verilog/led7seg_2.v
+L0 22
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1740333489.000000
+Z8 !s107 D:/Apps/Quartus/User/Source_verilog/led7seg_2.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/led7seg_2.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/Source_verilog
+Z12 tCvgOpt 0
+vled7seg_2
+R1
+!i10b 1
+!s100 F1n><SaZT8LPT:z:NWE]j2
+I?7;KU7FAhWMzoGDLRAZ9T2
+R2
+R0
+R3
+R4
+R5
+L0 47
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vled7seg_3
+R1
+!i10b 1
+!s100 YZLBRYbO@6M;iRRK2R8CE2
+I]OW5OSId`7UeN3=HeOaZL3
+R2
+R0
+w1740333162
+8D:/Apps/Quartus/User/Source_verilog/led7seg_3.v
+FD:/Apps/Quartus/User/Source_verilog/led7seg_3.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Apps/Quartus/User/Source_verilog/led7seg_3.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/led7seg_3.v|
+!i113 1
+R10
+R11
+R12
+vled7seg_3_tb
+R1
+!i10b 1
+!s100 ]Y_QM]Igd=i:A?f2P4Q;M2
+I`lOWg0>l>8:GB_@7daki80
+R2
+R0
+w1740333459
+8D:/Apps/Quartus/User/led7seg_3/../Source_verilog/led7seg_3_tb.v
+FD:/Apps/Quartus/User/led7seg_3/../Source_verilog/led7seg_3_tb.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/Apps/Quartus/User/led7seg_3/../Source_verilog/led7seg_3_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/led7seg_3/../Source_verilog|D:/Apps/Quartus/User/led7seg_3/../Source_verilog/led7seg_3_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/led7seg_3/../Source_verilog
+R12
+vmux4_1
+R1
+!i10b 1
+!s100 bL?m@0PdMdRXD[YHzLl4k2
+IN=^G1Ub<EMFdLn7Ua^MIm2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12

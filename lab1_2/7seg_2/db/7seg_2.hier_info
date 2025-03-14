@@ -1,0 +1,54 @@
+|led7seg_2
+sw_98[0] => sw_98[0].IN1
+sw_98[1] => sw_98[1].IN1
+sw_70[0] => sw_70[0].IN1
+sw_70[1] => sw_70[1].IN1
+sw_70[2] => sw_70[2].IN1
+sw_70[3] => sw_70[3].IN1
+sw_70[4] => sw_70[4].IN1
+sw_70[5] => sw_70[5].IN1
+sw_70[6] => sw_70[6].IN1
+sw_70[7] => sw_70[7].IN1
+out_seg[0] << decoder_7seg:ins2.y
+out_seg[1] << decoder_7seg:ins2.y
+out_seg[2] << decoder_7seg:ins2.y
+out_seg[3] << decoder_7seg:ins2.y
+out_seg[4] << decoder_7seg:ins2.y
+out_seg[5] << decoder_7seg:ins2.y
+out_seg[6] << decoder_7seg:ins2.y
+out_seg[7] << decoder_7seg:ins2.y
+
+
+|led7seg_2|mux4_1:ins1
+a[0] => Mux1.IN0
+a[1] => Mux0.IN0
+b[0] => Mux1.IN1
+b[1] => Mux0.IN1
+c[0] => Mux1.IN2
+c[1] => Mux0.IN2
+d[0] => Mux1.IN3
+d[1] => Mux0.IN3
+sel[0] => Mux0.IN5
+sel[0] => Mux1.IN5
+sel[1] => Mux0.IN4
+sel[1] => Mux1.IN4
+y[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led7seg_2|decoder_7seg:ins2
+sel[0] => Decoder0.IN1
+sel[0] => y[5].DATAIN
+sel[0] => y[0].DATAIN
+sel[1] => Decoder0.IN0
+sel[1] => y[6].DATAIN
+y[0] <= sel[0].DB_MAX_OUTPUT_PORT_TYPE
+y[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+y[5] <= sel[0].DB_MAX_OUTPUT_PORT_TYPE
+y[6] <= sel[1].DB_MAX_OUTPUT_PORT_TYPE
+y[7] <= <VCC>
+
+

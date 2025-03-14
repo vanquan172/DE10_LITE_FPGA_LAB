@@ -1,0 +1,77 @@
+|adder_nb
+a[0] => a[0].IN1
+a[1] => a[1].IN1
+a[2] => a[2].IN1
+a[3] => a[3].IN1
+b[0] => b[0].IN1
+b[1] => b[1].IN1
+b[2] => b[2].IN1
+b[3] => b[3].IN1
+car_in => car_in.IN1
+sum_out[0] <= full_adder:ins_full_adder0.sum_out
+sum_out[1] <= full_adder:ins[1].ins_full_adder.sum_out
+sum_out[2] <= full_adder:ins[2].ins_full_adder.sum_out
+sum_out[3] <= full_adder:ins[3].ins_full_adder.sum_out
+car_out <= full_adder:ins[3].ins_full_adder.car_out
+
+
+|adder_nb|full_adder:ins_full_adder0
+a => xor_out.IN0
+b => b.IN1
+car_in => car_in.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+car_out <= mux2_1_nb:ins_mux2_1.y
+
+
+|adder_nb|full_adder:ins_full_adder0|mux2_1_nb:ins_mux2_1
+a[0] => y.DATAA
+b[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_nb|full_adder:ins[1].ins_full_adder
+a => xor_out.IN0
+b => b.IN1
+car_in => car_in.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+car_out <= mux2_1_nb:ins_mux2_1.y
+
+
+|adder_nb|full_adder:ins[1].ins_full_adder|mux2_1_nb:ins_mux2_1
+a[0] => y.DATAA
+b[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_nb|full_adder:ins[2].ins_full_adder
+a => xor_out.IN0
+b => b.IN1
+car_in => car_in.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+car_out <= mux2_1_nb:ins_mux2_1.y
+
+
+|adder_nb|full_adder:ins[2].ins_full_adder|mux2_1_nb:ins_mux2_1
+a[0] => y.DATAA
+b[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_nb|full_adder:ins[3].ins_full_adder
+a => xor_out.IN0
+b => b.IN1
+car_in => car_in.IN1
+sum_out <= sum_out.DB_MAX_OUTPUT_PORT_TYPE
+car_out <= mux2_1_nb:ins_mux2_1.y
+
+
+|adder_nb|full_adder:ins[3].ins_full_adder|mux2_1_nb:ins_mux2_1
+a[0] => y.DATAA
+b[0] => y.DATAB
+sel => y.OUTPUTSELECT
+y[0] <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

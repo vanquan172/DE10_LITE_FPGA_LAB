@@ -1,0 +1,121 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Apps/Quartus/User/led7_2digit/simulation/modelsim
+vbin_to_7seg
+Z1 !s110 1740395381
+!i10b 1
+!s100 Wn=>BOcg90hhSAT>5MJk;3
+IG1m0PUFL3Zg?DNmm@MIi?3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1740393548
+8D:/Apps/Quartus/User/Source_verilog/bin_to_7seg.v
+FD:/Apps/Quartus/User/Source_verilog/bin_to_7seg.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1740395381.000000
+!s107 D:/Apps/Quartus/User/Source_verilog/bin_to_7seg.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/bin_to_7seg.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/Source_verilog
+Z7 tCvgOpt 0
+vcir_A
+R1
+!i10b 1
+!s100 2zlWKdWK4zbTSnC[J>Z`o3
+IDAa<XAHA>o5USm=1X9j0G1
+R2
+R0
+Z8 w1740395366
+Z9 8D:/Apps/Quartus/User/Source_verilog/led7_2digit.v
+Z10 FD:/Apps/Quartus/User/Source_verilog/led7_2digit.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+Z11 !s107 D:/Apps/Quartus/User/Source_verilog/led7_2digit.v|
+Z12 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/led7_2digit.v|
+!i113 1
+R5
+R6
+R7
+ncir_@a
+vled7_2digit
+R1
+!i10b 1
+!s100 8GS]==^S@[@?MC7f5k5`M2
+IUPaaJDe<@od?zNznE6?Zb1
+R2
+R0
+R8
+R9
+R10
+L0 20
+R3
+r1
+!s85 0
+31
+R4
+R11
+R12
+!i113 1
+R5
+R6
+R7
+vled7_2digit_tb
+R1
+!i10b 1
+!s100 9ne:_Ma59<AKGR9KTGoVI3
+Iif1i[`lIVG;^E1>3;jkf^1
+R2
+R0
+w1740393066
+8D:/Apps/Quartus/User/led7_2digit/../Source_verilog/led7_2digit_tb.v
+FD:/Apps/Quartus/User/led7_2digit/../Source_verilog/led7_2digit_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Apps/Quartus/User/led7_2digit/../Source_verilog/led7_2digit_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/led7_2digit/../Source_verilog|D:/Apps/Quartus/User/led7_2digit/../Source_verilog/led7_2digit_tb.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/Apps/Quartus/User/led7_2digit/../Source_verilog
+R7
+vmux2_1_nb
+R1
+!i10b 1
+!s100 69@E]C]]5U5=;0Jn0MkS@0
+IQ<WJ8Ng3GS0AeB9WYVF1H1
+R2
+R0
+w1740391468
+8D:/Apps/Quartus/User/Source_verilog/mux2_1_nb.v
+FD:/Apps/Quartus/User/Source_verilog/mux2_1_nb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Apps/Quartus/User/Source_verilog/mux2_1_nb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/Apps/Quartus/User/Source_verilog|D:/Apps/Quartus/User/Source_verilog/mux2_1_nb.v|
+!i113 1
+R5
+R6
+R7
