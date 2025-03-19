@@ -1,0 +1,13 @@
+
+State Machine - |uart_top|state
+Name state.IDLE state.WAIT state.SEND 
+state.IDLE 0 0 0 
+state.SEND 1 0 1 
+state.WAIT 1 1 0 
+
+State Machine - |uart_top|uart_tx:uart_tx_inst|state
+Name state.S_SEND_BYTE state.S_START state.S_IDLE state.S_STOP 
+state.S_IDLE 0 0 0 0 
+state.S_START 0 1 1 0 
+state.S_SEND_BYTE 1 0 1 0 
+state.S_STOP 0 0 1 1 
