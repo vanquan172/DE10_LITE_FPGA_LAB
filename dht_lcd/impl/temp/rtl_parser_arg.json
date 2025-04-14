@@ -1,0 +1,29 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_dht.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_lcd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Apps/Gowin/User/dht_lcd/src/dht.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "D:/Apps/Gowin/User/dht_lcd/src/lcd16_02.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "D:/Apps/Gowin/User/dht_lcd/impl/temp/rtl_parser.result",
+ "Top" : "",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

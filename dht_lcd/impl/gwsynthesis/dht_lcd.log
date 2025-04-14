@@ -1,0 +1,76 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Apps\Gowin\User\dht_lcd\src\ctr_dht.v'
+WARN  (EX2950) : Extra semicolon is not allowed here in this dialect, use SystemVerilog mode instead("D:\Apps\Gowin\User\dht_lcd\src\ctr_dht.v":21)
+Analyzing Verilog file 'D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v'
+Analyzing Verilog file 'D:\Apps\Gowin\User\dht_lcd\src\dht.v'
+Undeclared symbol 'timh_out', assumed default net type 'wire'("D:\Apps\Gowin\User\dht_lcd\src\dht.v":42)
+Undeclared symbol 'timl_out', assumed default net type 'wire'("D:\Apps\Gowin\User\dht_lcd\src\dht.v":43)
+Undeclared symbol 'cntus_out', assumed default net type 'wire'("D:\Apps\Gowin\User\dht_lcd\src\dht.v":44)
+Analyzing Verilog file 'D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v'
+Compiling module 'ctr_dht'("D:\Apps\Gowin\User\dht_lcd\src\ctr_dht.v":1)
+Compiling module 'ctr_lcd'("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":1)
+Compiling module 'lcd16_02'("D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v":1)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v":61)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v":72)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v":84)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\dht_lcd\src\lcd16_02.v":95)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":88)
+WARN  (EX3791) : Expression size 9 truncated to fit in target size 8("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":90)
+WARN  (EX3779) : 'temp_dv' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":96)
+WARN  (EX3779) : 'hum_dv' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":97)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":124)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":135)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":146)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":157)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":168)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":179)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":190)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":201)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":212)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":241)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":253)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":265)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":277)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":289)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":316)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":330)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\dht_lcd\src\ctr_lcd.v":339)
+Compiling module 'dht'("D:\Apps\Gowin\User\dht_lcd\src\dht.v":1)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 1("D:\Apps\Gowin\User\dht_lcd\src\dht.v":42)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 1("D:\Apps\Gowin\User\dht_lcd\src\dht.v":43)
+WARN  (EX3791) : Expression size 22 truncated to fit in target size 1("D:\Apps\Gowin\User\dht_lcd\src\dht.v":44)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":80)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":88)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":100)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":104)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":125)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":129)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":147)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":151)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":174)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":178)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":197)
+WARN  (EX3791) : Expression size 23 truncated to fit in target size 22("D:\Apps\Gowin\User\dht_lcd\src\dht.v":201)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("D:\Apps\Gowin\User\dht_lcd\src\dht.v":204)
+NOTE  (EX0101) : Current top module is "ctr_dht"
+WARN  (EX0211) : The output port "uart_tx" of module "ctr_dht" has no driver, assigning undriven bits to Z, simulation mismatch possible("D:\Apps\Gowin\User\dht_lcd\src\ctr_dht.v":5)
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Apps\Gowin\User\dht_lcd\impl\gwsynthesis\dht_lcd.vg" completed
+[100%] Generate report file "D:\Apps\Gowin\User\dht_lcd\impl\gwsynthesis\dht_lcd_syn.rpt.html" completed
+GowinSynthesis finish

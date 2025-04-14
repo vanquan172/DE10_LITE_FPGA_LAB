@@ -1,0 +1,38 @@
+[
+ {
+  "InstFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_dht.v",
+  "InstLine" : 1,
+  "InstName" : "ctr_dht",
+  "ModuleFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_dht.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "ctr_dht",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_dht.v",
+    "InstLine" : 40,
+    "InstName" : "ins_lcd",
+    "ModuleFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_lcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ctr_lcd",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_lcd.v",
+      "InstLine" : 31,
+      "InstName" : "ins_lcd",
+      "ModuleFile" : "D:/Apps/Gowin/User/dht_lcd/src/lcd16_02.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "lcd16_02"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Apps/Gowin/User/dht_lcd/src/ctr_dht.v",
+    "InstLine" : 43,
+    "InstName" : "ins_dht",
+    "ModuleFile" : "D:/Apps/Gowin/User/dht_lcd/src/dht.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "dht"
+   }
+  ]
+ }
+]

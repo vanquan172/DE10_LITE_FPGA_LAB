@@ -1,0 +1,14 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88PC6/I5">gw1nr9c-004</Device>
+    <FileList>
+        <File path="src/ctr_dht.v" type="file.verilog" enable="1"/>
+        <File path="src/ctr_lcd.v" type="file.verilog" enable="1"/>
+        <File path="src/dht.v" type="file.verilog" enable="1"/>
+        <File path="src/lcd16_02.v" type="file.verilog" enable="1"/>
+        <File path="src/dht_lcd.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="ctr_dht" Register="53" Lut="81" T_Register="210(53)" T_Lut="584(81)">
+ <SubModule name="ins_lcd" Register="41" Lut="219" T_Register="65(41)" T_Lut="267(219)">
+  <SubModule name="ins_lcd" Register="24" Lut="48" T_Register="24(24)" T_Lut="48(48)"/>
+ </SubModule>
+ <SubModule name="ins_dht" Register="92" Lut="236" T_Register="92(92)" T_Lut="236(236)"/>
+</Module>
