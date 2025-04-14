@@ -1,0 +1,79 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v'
+Analyzing Verilog file 'D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v'
+Analyzing Verilog file 'D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v'
+Analyzing Verilog file 'D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v'
+Analyzing Verilog file 'D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v'
+Undeclared symbol 'temp', assumed default net type 'wire'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":37)
+Undeclared symbol 'hum', assumed default net type 'wire'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":37)
+WARN  (EX3638) : 'temp' is already implicitly declared on line 37("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":44)
+WARN  (EX3638) : 'hum' is already implicitly declared on line 37("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":45)
+Compiling module 'top'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":2)
+Compiling module 'ctr_sht30'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":3)
+WARN  (EX3780) : Using initial value of 'reg_setup' since it is never assigned("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":29)
+WARN  (EX3780) : Using initial value of 'address' since it is never assigned("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":52)
+Compiling module 'i2c(SCL_CLK=200000)'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":1)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":51)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":68)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":85)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":97)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":107)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":123)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":136)
+WARN  (EX3791) : Expression size 10 truncated to fit in target size 9("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\i2c.v":146)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":187)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":191)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":198)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":201)
+WARN  (EX3791) : Expression size 3 truncated to fit in target size 2("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":208)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":212)
+WARN  (EX3791) : Expression size 21 truncated to fit in target size 20("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_sht30.v":224)
+Compiling module 'ctr_lcd'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":1)
+Compiling module 'lcd16_02'("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v":1)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v":61)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v":72)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v":84)
+WARN  (EX3791) : Expression size 16 truncated to fit in target size 15("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\lcd16_02.v":95)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 8("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":88)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 8("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":90)
+WARN  (EX3779) : 'temp_dv' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":96)
+WARN  (EX3779) : 'hum_dv' should be on the sensitivity list. Signal missing is added and assuming complete sensitivity list specified. RTL design and post-synthesis netlist simulations may differ as a result("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":97)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":124)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":135)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":146)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":157)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":168)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":179)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":190)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":201)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":212)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":241)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":253)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":265)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":277)
+WARN  (EX3791) : Expression size 19 truncated to fit in target size 18("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":289)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":316)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":330)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\ctr_lcd.v":339)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 16("D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\top.v":81)
+NOTE  (EX0101) : Current top module is "top"
+[5%] Running netlist conversion ...
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\gwsynthesis\test_sht30_lcd.vg" completed
+[100%] Generate report file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\gwsynthesis\test_sht30_lcd_syn.rpt.html" completed
+GowinSynthesis finish

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="85" Lut="139" MULT18X18="2" T_Register="247(85)" T_Lut="569(139)" T_MULT18X18="2(2)">
+ <SubModule name="ins_sht30" Register="69" Lut="101" T_Register="97(69)" T_Lut="163(101)">
+  <SubModule name="ins_i2c" Register="28" Lut="62" T_Register="28(28)" T_Lut="62(62)"/>
+ </SubModule>
+ <SubModule name="ins_lcd" Register="41" Lut="218" T_Register="65(41)" T_Lut="267(218)">
+  <SubModule name="ins_lcd" Register="24" Lut="49" T_Register="24(24)" T_Lut="49(49)"/>
+ </SubModule>
+</Module>

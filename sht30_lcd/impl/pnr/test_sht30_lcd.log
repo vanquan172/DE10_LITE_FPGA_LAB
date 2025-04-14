@@ -1,0 +1,30 @@
+Reading netlist file: "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\gwsynthesis\test_sht30_lcd.vg"
+Parsing netlist file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\gwsynthesis\test_sht30_lcd.vg" completed
+Processing netlist completed
+Reading constraint file: "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\src\test_sht30_lcd.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\pnr\test_sht30_lcd.power.html" completed
+Generate file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\pnr\test_sht30_lcd.pin.html" completed
+Generate file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\pnr\test_sht30_lcd.rpt.html" completed
+Generate file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\pnr\test_sht30_lcd.rpt.txt" completed
+Generate file "D:\Apps\Gowin\User\test_sht30_lcd_1\test_sht30_lcd\impl\pnr\test_sht30_lcd.tr.html" completed
+Wed Apr  2 15:30:31 2025
+

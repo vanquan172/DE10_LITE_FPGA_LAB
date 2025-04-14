@@ -1,0 +1,48 @@
+[
+ {
+  "InstFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/top.v",
+  "InstLine" : 2,
+  "InstName" : "top",
+  "ModuleFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "top",
+  "SubInsts" : [
+   {
+    "InstFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/top.v",
+    "InstLine" : 20,
+    "InstName" : "ins_sht30",
+    "ModuleFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/ctr_sht30.v",
+    "ModuleLine" : 3,
+    "ModuleName" : "ctr_sht30",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/ctr_sht30.v",
+      "InstLine" : 56,
+      "InstName" : "ins_i2c",
+      "ModuleFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/i2c.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "i2c"
+     }
+    ]
+   },
+   {
+    "InstFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/top.v",
+    "InstLine" : 37,
+    "InstName" : "ins_lcd",
+    "ModuleFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/ctr_lcd.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "ctr_lcd",
+    "SubInsts" : [
+     {
+      "InstFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/ctr_lcd.v",
+      "InstLine" : 31,
+      "InstName" : "ins_lcd",
+      "ModuleFile" : "D:/Apps/Gowin/User/test_sht30_lcd_1/test_sht30_lcd/src/lcd16_02.v",
+      "ModuleLine" : 1,
+      "ModuleName" : "lcd16_02"
+     }
+    ]
+   }
+  ]
+ }
+]
